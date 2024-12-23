@@ -23,7 +23,7 @@ let start = 3;
 let end = 10;
 let sumOfEvenNumbers = 0;
 
-for (let num = 3; num <= 10; num++) {
+for (let num = start; num <= end; num++) {
   if (num % 2 === 0) {
     sumOfEvenNumbers += num;
   }
