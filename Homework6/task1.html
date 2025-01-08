@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List Manipulation</title>
+  </head>
+  <body>
+    <ul>
+      <li>Mercedes</li>
+      <li>BMW</li>
+      <li>Audi</li>
+    </ul>
+    <script>
+      const orderedListElements = document.getElementsByTagName("ul");
+      const listElementsArray = Array.from(orderedListElements);
+      //   console.log(listElementsArray);
+      listElementsArray.forEach((listItem) => (listItem.style.color = "blue"));
+
+      const listItemFerrari = document.createElement("li");
+      const textNode = document.createTextNode("Ferrari");
+      listItemFerrari.appendChild(textNode);
+
+      document.querySelector("ul").appendChild(listItemFerrari);
+    </script>
+  </body>
+</html>

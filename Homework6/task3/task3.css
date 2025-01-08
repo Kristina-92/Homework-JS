@@ -1,0 +1,32 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin: 25px 55px;
+}
+
+h1 {
+  position: absolute;
+  top: 5px;
+  font-size: 40px;
+}
+
+#quiz-container {
+  position: relative;
+  margin-top: 100px;
+}
+
+li {
+  padding: 30px 5px 15px;
+  font-weight: bold;
+}
+
+input {
+  width: 20px;
+  height: 20px;
+  margin: 0px 2px;
+}
+
+label {
+  margin: 0px 15px 0px 2px;
+  font-size: 25px;
+}
