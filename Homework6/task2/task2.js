@@ -24,7 +24,7 @@ function changeBookTitle(orderedList, oldTitle, newTitle) {
 }
 
 const bookList = document.getElementById("book-list");
-changeBookTitle(bookList, "The Catcher in the Rye", "Close Quarters");
+// changeBookTitle(bookList, "The Catcher in the Rye", "Close Quarters");
 
 //2-v
 
@@ -38,4 +38,5 @@ function removeBook(orderedList, bookTitle) {
   }
 }
 
-removeBook(bookList, "Animal Farm");
+// removeBook(bookList, "Animal Farm");
+// oddListElements();
