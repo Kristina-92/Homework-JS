@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" />
+    <title>Traffic Light</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .traffic-light {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border: 3px solid black;
+        border-radius: 24px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        background: linear-gradient(to bottom, #666, #444);
+      }
+
+      .light {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 10px;
+        border: 1px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="traffic-light">
+      <div class="light"></div>
+      <div class="light"></div>
+      <div class="light"></div>
+    </div>
+    <script src="task3.js"></script>
+  </body>
+</html>
