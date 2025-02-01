@@ -1,7 +1,7 @@
-const url = "https://rickandmortyapi.com/api/character";
 const dataContainer = document.getElementById("data-container");
 
 const fetchData = async () => {
+  const url = "https://rickandmortyapi.com/api/character";
   try {
     const response = await fetch(url);
     if (!response.ok) {
